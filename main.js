@@ -4,11 +4,11 @@
 // If it's divisible by both 3 and 5, print CracklePop.
 // Written in JavaScript
 
-// declare variable i and initialize it to 1
+// declare variable i, initialize to 1
 // set conditional to check if i is less than 100
 // if true, increase i by 1
 for (i = 1; i <= 100; i++) {
-  // declare variable message and initialize it to an empty string
+  // declare variable message, initialize to empty string
   let message = '';
   // if i is divisible by 3,
   // concatenate 'Crackle' to message
@@ -20,7 +20,7 @@ for (i = 1; i <= 100; i++) {
   if (i % 5 === 0) {
     message += 'Pop';
   }
-  // if the length of message is greater than 0,
+  // if the length of message is greater than 0 (not empty),
   // output message to console
   // else,
   // output value of i
